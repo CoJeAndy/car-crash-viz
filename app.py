@@ -112,6 +112,7 @@ cluster_to_layer = assign("""function(feature, x_cory_cor, index, context){
 df_columns = pd.DataFrame({"cols": ['crash_type', 'substance', 'weather', 'road_type',]})
 
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H1("Car crashes in Czech republic from 2020", style={'textAlign': 'center'}),
