@@ -6,3 +6,4 @@ dash_extensions
 numpy
 seaborn
 plotly
+protobuf==3.20.*
