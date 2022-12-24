@@ -1,0 +1,8 @@
+dash
+pandas
+gunicorn
+dash_leaflet
+dash_extensions
+numpy
+seaborn
+plotly
